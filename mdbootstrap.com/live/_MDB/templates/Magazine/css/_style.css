@@ -1,0 +1,93 @@
+/* Tiles blog heading */
+.tiles-heading {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+/* Tiles blog post */
+.tiles-blog {
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.tiles-blog .tiles-margins {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.tiles-blog .tiles-margins.no-margins {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post {
+  overflow: hidden;
+  position: relative;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-image:after {
+  display: block;
+  position: relative;
+  margin-top: -300px;
+  content: '';
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)) repeat-x;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 30px 22px;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body .tiles-post-category {
+  display: inline;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body .tiles-post-category a {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1px 10px;
+  margin-bottom: 1rem;
+  border: none !important;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff !important;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body .tiles-post-category a:hover {
+  background-color: #ffa000;
+  transition: 0.7s;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body .tiles-post-title {
+  margin-bottom: 15px;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body .tiles-post-title a {
+  font-weight: 500;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body .tiles-post-comments {
+  margin: 10px 0 0 16px;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body .tiles-post-comments a {
+  color: #9e9e9e;
+  transition: 0.3s;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body .tiles-post-comments a:hover {
+  color: #fff;
+}
